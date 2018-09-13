@@ -12,6 +12,9 @@ public class TrainingSet
 public class Perceptron : MonoBehaviour
 {
 	public TrainingSet[] ts;	
+	double[] weights = {0,0};
+	double bias = 0;
+	double totalError = 0;
 
 	void Start()
 	{
